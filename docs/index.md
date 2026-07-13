@@ -15,4 +15,4 @@ Welcome. This site holds our schemes of learning, lesson resources, tasks, and k
     Work through each lesson in order. Knowledge checks are Google Forms — you'll need to be signed in with your school account.
 
 !!! info "For staff"
-    Lesson resources are Markdown files in [the repository](https://github.com/REPLACE-USERNAME/computing-resources) — edits can be made through pull requests. Quiz answer keys live in Google Forms, not on this site.
+    Lesson resources are Markdown files in [the repository](https://github.com/cuvner/computing-resources) — edits can be made through pull requests. Quiz answer keys live in Google Forms, not on this site.
