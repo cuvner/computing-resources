@@ -1,6 +1,6 @@
 site_name: Computing Department Resources
 site_description: KS3 and KS4 Computing learning resources
-site_url: https://REPLACE-USERNAME.github.io/computing-resources/
+site_url: https://cuvner.github.io/computing-resources/
 
 theme:
   name: material
