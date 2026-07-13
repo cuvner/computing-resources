@@ -1,0 +1,18 @@
+# Computing Department Resources
+
+Welcome. This site holds our schemes of learning, lesson resources, tasks, and knowledge checks for Computing.
+
+## Year groups
+
+| Year | Units available |
+|---|---|
+| **Year 8** | [Introduction to Generative AI](year-8/generative-ai/index.md) |
+| Year 9 | *migration in progress* |
+| Year 10 (GCSE) | *migration in progress* |
+| Year 11 (GCSE) | *migration in progress* |
+
+!!! note "For students"
+    Work through each lesson in order. Knowledge checks are Google Forms — you'll need to be signed in with your school account.
+
+!!! info "For staff"
+    Lesson resources are Markdown files in [the repository](https://github.com/REPLACE-USERNAME/computing-resources) — edits can be made through pull requests. Quiz answer keys live in Google Forms, not on this site.

@@ -1,0 +1,63 @@
+site_name: Computing Department Resources
+site_description: KS3 and KS4 Computing learning resources
+site_url: https://REPLACE-USERNAME.github.io/computing-resources/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Atkinson Hyperlegible
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Year 8:
+      - Overview: year-8/index.md
+      - Introduction to Generative AI:
+          - Unit overview: year-8/generative-ai/index.md
+          - "Lesson 1 · Safely Using Generative AI":
+              - "1a · Intro to Generative AI": year-8/generative-ai/lesson-1/lesson-1a-intro.md
+              - "Harry Potter chapter (LLM-written)": year-8/generative-ai/lesson-1/harry-potter-chapter.md
+              - "1b · Hallucinations": year-8/generative-ai/lesson-1/lesson-1b-hallucinations.md
+              - "Tasks": year-8/generative-ai/tasks/lesson-1-tasks.md
+              - "Knowledge checks": year-8/generative-ai/quizzes/lesson-1-quizzes.md
+          - "Lesson 2 · Using Generative AI to Learn":
+              - "Lesson introduction": year-8/generative-ai/lesson-2/lesson-2-intro.md
+              - "Tasks": year-8/generative-ai/tasks/lesson-2-tasks.md
+              - "Knowledge checks": year-8/generative-ai/quizzes/lesson-2-quizzes.md
+          - "Lesson 3 · Creative AI":
+              - "Lesson introduction": year-8/generative-ai/lesson-3/lesson-3-intro.md
+              - "How to generate an image in Canva": year-8/generative-ai/lesson-3/generate-image-canva.md
+              - "Tasks": year-8/generative-ai/tasks/lesson-3-tasks.md
+          - "Lesson 4 · Using Generative AI Responsibly":
+              - "Tasks": year-8/generative-ai/tasks/lesson-4-tasks.md
+              - "Knowledge checks": year-8/generative-ai/quizzes/lesson-4-quizzes.md
