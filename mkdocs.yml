@@ -61,3 +61,27 @@ nav:
           - "Lesson 4 · Using Generative AI Responsibly":
               - "Tasks": year-8/generative-ai/tasks/lesson-4-tasks.md
               - "Knowledge checks": year-8/generative-ai/quizzes/lesson-4-quizzes.md
+  - Year 9:
+      - Overview: year-9/index.md
+      - Business IT:
+          - Unit overview: year-9/business-it/index.md
+          - "Introduction · Phoenix Media's New Office": year-9/business-it/introduction/introduction-to-the-project.md
+          - 'Lesson 1 · What is a "Computer" anyway?':
+              - "Lesson page": year-9/business-it/lesson-1/lesson-1-what-is-a-computer-anyway.md
+              - "Knowledge checks": year-9/business-it/quizzes/lesson-1-quizzes.md
+          - "Lesson 2 · How To Buy The Right Computer":
+              - "Lesson page": year-9/business-it/lesson-2/lesson-2-how-to-buy-the-right-computer.md
+              - "Tasks": year-9/business-it/tasks/lesson-2-tasks.md
+              - "Knowledge checks": year-9/business-it/quizzes/lesson-2-quizzes.md
+          - "Lesson 3 · Computer Networks & The Internet":
+              - "Lesson page": year-9/business-it/lesson-3/lesson-3-computer-networks-and-the-internet.md
+              - "Tasks": year-9/business-it/tasks/lesson-3-tasks.md
+              - "Knowledge checks": year-9/business-it/quizzes/lesson-3-quizzes.md
+          - "Lesson 4 · Hazards and Risks in Cybersecurity":
+              - "Lesson page": year-9/business-it/lesson-4/lesson-4-hazards-and-risks-in-cybersecurity.md
+              - "Tasks": year-9/business-it/tasks/lesson-4-tasks.md
+              - "Knowledge checks": year-9/business-it/quizzes/lesson-4-quizzes.md
+          - "Lesson 5 · Mitigating Cybersecurity Risks":
+              - "Lesson page": year-9/business-it/lesson-5/lesson-5-mitigating-cybersecurity-risks.md
+              - "Tasks": year-9/business-it/tasks/lesson-5-tasks.md
+              - "Knowledge checks": year-9/business-it/quizzes/lesson-5-quizzes.md
