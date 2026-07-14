@@ -1805,6 +1805,391 @@ const QUIZ_DATA = [
         "question": "Learning Outcome: I can complete a cybersecurity risk assessment, identifying appropriate risk-reduction controls."
       }
     ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 1 — Intro to Computer Systems",
+    "title": "Knowledge Check: General vs Embedded Systems",
+    "placeholder": "FORM_URL_KC_GEN_VS_EMBEDDED",
+    "type": "knowledge_check",
+    "questions": [
+      {
+        "n": 1,
+        "type": "matching",
+        "question": "Match the keywords to the definitions.",
+        "pairs": [
+          {
+            "prompt": "General Purpose Computers",
+            "match": "Computers with a variety of uses, the tasks are usually chosen by the end user."
+          },
+          {
+            "prompt": "Embedded System",
+            "match": "Specialised computer systems that have dedicated functions within a larger system. The function is usually chosen by the manufacturer."
+          }
+        ],
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "n": 2,
+        "type": "multi_select",
+        "question": "Which of the below devices, from the picture, are likely to have embedded systems?",
+        "options": [
+          "Coffee Maker",
+          "Printer",
+          "Laptop",
+          "TV",
+          "Games Console",
+          "Sofa",
+          "(non-Smart) Lightbulb",
+          "Smart Thermostat (like Hive)",
+          "Smoke Alarm"
+        ],
+        "correct": [
+          "Coffee Maker",
+          "Printer",
+          "TV",
+          "Games Console",
+          "Smart Thermostat (like Hive)"
+        ],
+        "image": {
+          "url": "https://lwfiles.mycourse.app/6313816770e7826017236062-public/377726dd1fc6124cb871878277f9d895.png",
+          "description": "Illustrated living-room scene with a coffee maker, printer, laptop, TV, games console, sofa, non-smart lightbulb, smart thermostat, and smoke alarm."
+        },
+        "feedback_correct": "",
+        "feedback_incorrect": "",
+        "note_for_review": "Source marks \"Smoke Alarm\" as NOT an embedded system — debatable, since many smoke alarms contain microcontrollers. Kept as authored; flagged for teacher review."
+      },
+      {
+        "n": 3,
+        "type": "multiple_choice",
+        "question": "Mobile phones can blur the boundaries between embedded and smart systems. Which of the two below would you consider an embedded system?",
+        "options": [
+          "Left",
+          "Right"
+        ],
+        "correct": "Right",
+        "image": {
+          "url": "https://lwfiles.mycourse.app/6313816770e7826017236062-public/a3e0a6b19b599d3cc486566e2d90f312.jpg",
+          "description": "Two phones side by side separated by \"VS\": a modern touchscreen smartphone (left) vs. a basic/feature phone printed \"SAMSUNG\" with a physical keypad (right)."
+        },
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      },
+      {
+        "n": 4,
+        "type": "multiple_choice",
+        "question": "What's the key difference between an embedded and a general purpose system?",
+        "options": [
+          "Whether or not it is optimised for a specific purpose",
+          "Whether or not it's made by Apple or Microsoft",
+          "Whether it runs Windows or Mac",
+          "Whether it's a laptop or not"
+        ],
+        "correct": "Whether or not it is optimised for a specific purpose",
+        "feedback_correct": "",
+        "feedback_incorrect": ""
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 1 — Intro to Computer Systems",
+    "title": "Knowledge Check: Input, Process, Output",
+    "placeholder": "FORM_URL_KC_INPUT_PROCESS_OUTPUT",
+    "type": "knowledge_check",
+    "questions": [
+      {
+        "n": 1,
+        "type": "multiple_choice",
+        "question": "What does the 'I' in IPO model stand for?",
+        "options": ["Information", "Input", "Interface", "Instruction"],
+        "correct": "Input",
+        "feedback_correct": "Yes, that is correct. The 'I' in IPO model stands for 'Input', which refers to the data that is entered into a system.",
+        "feedback_incorrect": "Sorry, that's not correct. The 'I' in IPO model stands for 'Input', which refers to the data that is entered into a system."
+      },
+      {
+        "n": 2,
+        "type": "multiple_choice",
+        "question": "Which of the following is an example of an output device?",
+        "options": ["Keyboard", "Mouse", "Printer", "Gaming controller"],
+        "correct": "Printer",
+        "feedback_correct": "Yes, that is correct. A printer is an output device because it produces information in a physical form, such as printed pages.",
+        "feedback_incorrect": "Sorry, that's not correct. A printer is an output device because it produces information in a physical form, such as printed pages."
+      },
+      {
+        "n": 3,
+        "type": "multiple_choice",
+        "question": "What is the role of the 'P' in the IPO model?",
+        "options": ["Process", "Produce", "Present", "Prepare"],
+        "correct": "Process",
+        "feedback_correct": "Yes, that is correct. The 'P' in IPO model stands for 'Process', which is the step where data is manipulated or transformed to create useful information.",
+        "feedback_incorrect": "Sorry, that's not correct. The 'P' in IPO model stands for 'Process', which is the step where data is manipulated or transformed to create useful information."
+      },
+      {
+        "n": 4,
+        "type": "multiple_choice",
+        "question": "What is an input device used for?",
+        "options": ["To display information", "To send information into the system", "To store data", "To connect to the internet"],
+        "correct": "To send information into the system",
+        "feedback_correct": "Yes, that is correct. An input device is used to send information into the computer system, allowing us to interact with it.",
+        "feedback_incorrect": "Sorry, that's not correct. An input device is used to send information into the computer system, allowing us to interact with it."
+      },
+      {
+        "n": 5,
+        "type": "multiple_choice",
+        "question": "What is the primary function of sensors in embedded systems?",
+        "options": ["To receive input from the environment", "To process data", "To store information", "To provide power"],
+        "correct": "To receive input from the environment",
+        "feedback_correct": "Yes, that is correct. Sensors are designed to receive input from the environment, such as temperature, light, or motion. They convert these physical phenomena into electrical signals that can be processed.",
+        "feedback_incorrect": "Sorry, that's not correct. Sensors are designed to receive input from the environment, such as temperature, light, or motion. They convert these physical phenomena into electrical signals that can be processed."
+      },
+      {
+        "n": 6,
+        "type": "multiple_choice",
+        "question": "What role do actuators play in an embedded system?",
+        "options": ["They provide user input", "They perform actions based on processed data", "They store data temporarily", "They enhance computational speed"],
+        "correct": "They perform actions based on processed data",
+        "feedback_correct": "Yes, that is correct. Actuators are responsible for performing actions based on the processed data. For example, they might move a motor or change a setting in response to commands from the system.",
+        "feedback_incorrect": "Sorry, that's not correct. Actuators are responsible for performing actions based on the processed data. For example, they might move a motor or change a setting in response to commands from the system."
+      },
+      {
+        "n": 7,
+        "type": "matching",
+        "question": "Match the following terms with their definitions.",
+        "pairs": [
+          {"prompt": "Input Device", "match": "Sends data into the system"},
+          {"prompt": "Output Device", "match": "Produces information from the system"},
+          {"prompt": "Process", "match": "Manipulates data to create output"}
+        ],
+        "feedback_correct": "You are correct!",
+        "feedback_incorrect": "Sorry, you have selected the wrong answer."
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 1 — Intro to Computer Systems",
+    "title": "Knowledge Check: Components of a Computer",
+    "placeholder": "FORM_URL_KC_COMPONENTS_COMPUTER",
+    "type": "knowledge_check",
+    "questions": [
+      {
+        "n": 1,
+        "type": "multiple_choice",
+        "question": "What is the primary function of RAM in a computer?",
+        "options": ["Permanent data storage", "Temporary data storage for active processes", "Booting the operating system", "Managing peripheral devices"],
+        "correct": "Temporary data storage for active processes",
+        "feedback_correct": "Yes, that is correct. RAM (Random Access Memory) is used for temporary data storage while programs are running, allowing quick access to data that the CPU needs.",
+        "feedback_incorrect": "Sorry, that's not correct. RAM (Random Access Memory) is used for temporary data storage while programs are running, allowing quick access to data that the CPU needs."
+      },
+      {
+        "n": 2,
+        "type": "multiple_choice",
+        "question": "What does ROM stand for and what is its main purpose?",
+        "options": ["Read-Only Memory; to store firmware", "Random Access Memory; to manage applications", "Rapid Operational Memory; to boost performance", "Removable Online Memory; for external data"],
+        "correct": "Read-Only Memory; to store firmware",
+        "feedback_correct": "Yes, that is correct. ROM (Read-Only Memory) is used to store firmware and essential instructions that help boot the computer, which cannot be easily altered.",
+        "feedback_incorrect": "Sorry, that's not correct. ROM (Read-Only Memory) is used to store firmware and essential instructions that help boot the computer, which cannot be easily altered."
+      },
+      {
+        "n": 3,
+        "type": "multiple_choice",
+        "question": "Which component is responsible for initiating the boot process of a computer?",
+        "options": ["Hard Drive", "CPU", "BIOS", "RAM"],
+        "correct": "BIOS",
+        "feedback_correct": "Yes, that is correct. The BIOS (Basic Input/Output System) is responsible for starting the boot process by performing hardware checks and loading the operating system.",
+        "feedback_incorrect": "Sorry, that's not correct. The BIOS (Basic Input/Output System) is responsible for starting the boot process by performing hardware checks and loading the operating system."
+      },
+      {
+        "n": 4,
+        "type": "multiple_choice",
+        "question": "What is the role of a Hard Drive in a computer?",
+        "options": ["Execute instructions", "Store data permanently", "Provide graphics output", "Manage input devices"],
+        "correct": "Store data permanently",
+        "feedback_correct": "Yes, that is correct. The Hard Drive (or secondary storage) is used for permanent data storage, saving files and programs even when the computer is turned off.",
+        "feedback_incorrect": "Sorry, that's not correct. The Hard Drive (or secondary storage) is used for permanent data storage, saving files and programs even when the computer is turned off."
+      },
+      {
+        "n": 5,
+        "type": "multiple_choice",
+        "question": "What is the CPU's primary function in a computer system?",
+        "options": ["Store large amounts of data", "Perform calculations and execute instructions", "Provide power to other components", "Display graphics on the screen"],
+        "correct": "Perform calculations and execute instructions",
+        "feedback_correct": "Yes, that is correct. The CPU (Central Processing Unit) is the brain of the computer, responsible for performing calculations, running programs, and executing instructions.",
+        "feedback_incorrect": "Sorry, that's not correct. The CPU (Central Processing Unit) is the brain of the computer, responsible for performing calculations, running programs, and executing instructions."
+      },
+      {
+        "n": 6,
+        "type": "matching",
+        "question": "Match the component to its function.",
+        "pairs": [
+          {"prompt": "RAM", "match": "Temporary storage for active processes"},
+          {"prompt": "ROM", "match": "Stores firmware"},
+          {"prompt": "BIOS", "match": "Boots the operating system"},
+          {"prompt": "Hard Drive", "match": "Permanent storage"}
+        ],
+        "feedback_correct": "You are correct!",
+        "feedback_incorrect": "Sorry, you have selected the wrong answer."
+      },
+      {
+        "n": 7,
+        "type": "matching",
+        "question": "Match the acronym to its full form.",
+        "pairs": [
+          {"prompt": "RAM", "match": "Random Access Memory"},
+          {"prompt": "ROM", "match": "Read-Only Memory"},
+          {"prompt": "CPU", "match": "Central Processing Unit"},
+          {"prompt": "BIOS", "match": "Basic Input/Output System"}
+        ],
+        "feedback_correct": "You are correct!",
+        "feedback_incorrect": "Sorry, you have selected the wrong answer."
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 1 — Intro to Computer Systems",
+    "title": "Knowledge Check: Advantages of Embedded Systems",
+    "placeholder": "FORM_URL_KC_ADV_EMBEDDED",
+    "type": "knowledge_check",
+    "questions": [
+      {
+        "n": 1,
+        "type": "multiple_choice",
+        "question": "What percentage of all processors are part of embedded systems?",
+        "options": ["50 percent", "75 percent", "90 percent", "98 percent"],
+        "correct": "98 percent",
+        "feedback_correct": "Yes, that is correct. The transcript states that 98 percent of all processors are manufactured as components of embedded systems, highlighting their prevalence.",
+        "feedback_incorrect": "Sorry, that's not correct. The transcript states that 98 percent of all processors are manufactured as components of embedded systems, highlighting their prevalence."
+      },
+      {
+        "n": 2,
+        "type": "multiple_choice",
+        "question": "Which of the following is an example of an embedded system?",
+        "options": ["A personal computer", "A digital clock", "A web server"],
+        "correct": "A digital clock",
+        "feedback_correct": "Yes, that is correct. A digital clock is an example of an embedded system, as it serves a dedicated function, unlike personal computers which are multi-functional.",
+        "feedback_incorrect": "Sorry, that's not correct. A digital clock is an example of an embedded system, as it serves a dedicated function, unlike personal computers which are multi-functional."
+      },
+      {
+        "n": 3,
+        "type": "multiple_choice",
+        "question": "What is one advantage of embedded systems compared to general-purpose computers?",
+        "options": ["Higher processing power", "Greater versatility", "Low power consumption", "More complex user interfaces"],
+        "correct": "Low power consumption",
+        "feedback_correct": "Yes, that is correct. Embedded systems are designed for specific tasks, allowing them to operate with low power consumption, while general-purpose computers are not optimized for this.",
+        "feedback_incorrect": "Sorry, that's not correct. Embedded systems are designed for specific tasks, allowing them to operate with low power consumption, while general-purpose computers are not optimized for this."
+      },
+      {
+        "n": 4,
+        "type": "multiple_choice",
+        "question": "What is another advantage of embedded systems compared to general-purpose computers?",
+        "options": ["Higher processing power", "Greater versatility", "Can directly control the memory and components, making programs more efficient.", "More complex user interfaces"],
+        "correct": "Can directly control the memory and components, making programs more efficient.",
+        "feedback_correct": "Yes, that is correct. Embedded systems are designed for specific tasks, allowing them to operate with low power consumption, while general-purpose computers are not optimized for this.",
+        "feedback_incorrect": "Sorry, that's not correct. Embedded systems are designed for specific tasks, allowing them to operate with low power consumption, while general-purpose computers are not optimized for this.",
+        "note_for_review": "Source feedback text is a copy-paste of Q3's feedback (talks about low power consumption) even though Q4's correct answer is about direct hardware/memory control, not power consumption. Kept as authored; flagged for teacher review."
+      },
+      {
+        "n": 5,
+        "type": "multiple_choice",
+        "question": "Why can embedded systems be mass-produced economically?",
+        "options": ["They are more complex and require more labor", "They benefit from economies of scale", "They are less reliable than general-purpose systems", "They require custom components for every unit"],
+        "correct": "They benefit from economies of scale",
+        "feedback_correct": "Yes, that is correct. Embedded systems, like the coffee machine mentioned, can be mass-produced, which leads to reduced costs through economies of scale.",
+        "feedback_incorrect": "Sorry, that's not correct. Embedded systems, like the coffee machine mentioned, can be mass-produced, which leads to reduced costs through economies of scale."
+      },
+      {
+        "n": 6,
+        "type": "matching",
+        "question": "Match the properties of embedded systems to their benefit.",
+        "pairs": [
+          {"prompt": "low power consumption", "match": "devices can have a longer battery life"},
+          {"prompt": "small size", "match": "devices can be smaller and more portable"},
+          {"prompt": "rugged operating ranges", "match": "devices can be used on the move more easily"},
+          {"prompt": "low cost per unit", "match": "the final cost of the device can be lower"},
+          {"prompt": "directly control hardware and memory", "match": "the programs can run more efficiently, reducing power consumption and processor cost"}
+        ],
+        "feedback_correct": "You are correct!",
+        "feedback_incorrect": "Sorry, you have selected the wrong answer."
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 2 — Inside the CPU",
+    "title": "Knowledge Check: Common CPU Components and their Functions",
+    "placeholder": "FORM_URL_KC_CPU_COMPONENTS",
+    "type": "knowledge_check",
+    "questions": [
+      {
+        "n": 1,
+        "type": "matching",
+        "question": "Match the CPU components to their functions.",
+        "pairs": [
+          {"prompt": "Control Unit", "match": "Directs the flow of data and instructions"},
+          {"prompt": "Arithmetic Logic Unit", "match": "Performs arithmetic and logical operations"},
+          {"prompt": "Buses", "match": "Pathways for carrying data"},
+          {"prompt": "Registers", "match": "Temporary storage for quick access data"},
+          {"prompt": "Clock", "match": "Synchronizes all components with a steady pulse"}
+        ],
+        "feedback_correct": "You are correct!",
+        "feedback_incorrect": "Sorry, you have selected the wrong answer."
+      },
+      {
+        "n": 2,
+        "type": "multiple_choice",
+        "question": "What made the Von Neumann architecture different?",
+        "options": ["The programs and the data are stored in the same memory (stored program concept)", "It used binary to encode data.", "It differentiated between primary memory and secondary memory.", "It had a BIOS"],
+        "correct": "The programs and the data are stored in the same memory (stored program concept)",
+        "feedback_correct": "",
+        "feedback_incorrect": "",
+        "note_for_review": "No feedback text was configured for this question in the source assessment builder."
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 1 — Intro to Computer Systems",
+    "title": "Task: Exam Style Questions - Embedded Systems",
+    "type": "task",
+    "images": {
+      "Q3 (airport barrier photo)": "https://lwfiles.mycourse.app/6313816770e7826017236062-public/f9611c763d37308261c2a0adfcc71145.png"
+    },
+    "questions": [
+      {
+        "n": 1,
+        "type": "paragraph",
+        "question": "Q1. Define the term 'embedded system'. [1 Mark]"
+      },
+      {
+        "n": 2,
+        "type": "paragraph",
+        "question": "Q2. Complete the diagram of an embedded system by adding labelled boxes and arrows to show one sensor and one actuator that controls a motor. (Just describe in words what you would draw on the diagram.) [2 Mark]"
+      },
+      {
+        "n": 3,
+        "type": "paragraph",
+        "question": "Q3. Parking at an airport is controlled by computers. No paper tickets are issued. Here is an image of the control system at the exit. The control system uses sensors, a camera and a database. The barrier lifts if the parking fee has been paid. Describe what the system does when the exit sensor is activated by a car driving towards it. [2 Mark]"
+      }
+    ]
+  },
+  {
+    "course": "Year 10 — GCSE Paper 1 Theory: Principles of Computer Science",
+    "lesson": "Lesson 2 — Inside the CPU",
+    "title": "Task: Exam Style Questions - CPU",
+    "type": "task",
+    "images": {
+      "Q1 (exam question image)": "https://lwfiles.mycourse.app/6313816770e7826017236062-public/1dec936616f13e43d13a6dfe4b35dca5.png"
+    },
+    "questions": [
+      {
+        "n": 1,
+        "type": "paragraph",
+        "question": "Answer the exam style question below: [6 Mark] Q1. Computers. The CPU carries out a process. (i) Complete the diagram. (2) [fetch-decode-execute cycle diagram, 'Execute' pre-labelled, two blanks to fill in]. (ii) Identify the hardware component that carries instructions from memory to the CPU. (1) A Binary shift / B Control unit / C Data bus / D Register. (iii) State the component of the CPU that carries out additions and comparisons. (1) (iv) State the reason why a higher clock speed is desirable. (1) (v) State the name of a bus that is unidirectional. (1) (Total for question = 6 marks)"
+      }
+    ]
   }
 ];
 
@@ -1828,6 +2213,21 @@ function createAllForms() {
         item.setTitle(q.question).setPoints(1).setRequired(true);
         item.setChoices(q.options.map(function(opt) {
           return item.createChoice(opt, opt === q.correct);
+        }));
+        if (q.feedback_correct) item.setFeedbackForCorrect(
+          FormApp.createFeedback().setText(q.feedback_correct).build());
+        if (q.feedback_incorrect) item.setFeedbackForIncorrect(
+          FormApp.createFeedback().setText(q.feedback_incorrect).build());
+      } else if (q.type === 'multi_select' && q.options && q.correct) {
+        // Checkbox (multi-answer) question — added for GCSE Paper 1 Theory KC1
+        // (General vs Embedded Systems Q2). No multi_select handling existed
+        // before this; kept minimal and consistent with the multiple_choice
+        // branch above. Note: q.image (if present) is not attached to the
+        // Form item automatically — add it manually in the Form editor.
+        const item = form.addCheckboxItem();
+        item.setTitle(q.question).setPoints(1).setRequired(true);
+        item.setChoices(q.options.map(function(opt) {
+          return item.createChoice(opt, q.correct.indexOf(opt) !== -1);
         }));
         if (q.feedback_correct) item.setFeedbackForCorrect(
           FormApp.createFeedback().setText(q.feedback_correct).build());

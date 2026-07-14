@@ -85,3 +85,15 @@ nav:
               - "Lesson page": year-9/business-it/lesson-5/lesson-5-mitigating-cybersecurity-risks.md
               - "Tasks": year-9/business-it/tasks/lesson-5-tasks.md
               - "Knowledge checks": year-9/business-it/quizzes/lesson-5-quizzes.md
+  - Year 10:
+      - Overview: year-10/index.md
+      - GCSE Paper 1 Theory:
+          - Unit overview: year-10/paper-1/index.md
+          - "Lesson 1 · Intro to Computer Systems":
+              - "Lesson page": year-10/paper-1/lesson-1/lesson-1-intro-to-computer-systems.md
+              - "Tasks": year-10/paper-1/tasks/lesson-1-tasks.md
+              - "Knowledge checks": year-10/paper-1/quizzes/lesson-1-quizzes.md
+          - "Lesson 2 · Inside the CPU":
+              - "Lesson page": year-10/paper-1/lesson-2/lesson-2-inside-the-cpu.md
+              - "Tasks": year-10/paper-1/tasks/lesson-2-tasks.md
+              - "Knowledge checks": year-10/paper-1/quizzes/lesson-2-quizzes.md
