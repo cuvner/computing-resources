@@ -7,7 +7,7 @@ Welcome. This site holds our schemes of learning, lesson resources, tasks, and k
 | Year | Units available |
 |---|---|
 | **Year 8** | [Introduction to Generative AI](year-8/generative-ai/index.md) |
-| Year 9 | *migration in progress* |
+| **Year 9** | [Business IT](year-9/business-it/index.md) |
 | Year 10 (GCSE) | *migration in progress* |
 | Year 11 (GCSE) | *migration in progress* |
 
